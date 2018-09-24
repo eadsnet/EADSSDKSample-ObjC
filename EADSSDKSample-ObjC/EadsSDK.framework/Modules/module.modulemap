@@ -1,0 +1,11 @@
+framework module EadsSDK {
+  umbrella header "EadsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EadsSDK.Swift {
+    header "EadsSDK-Swift.h"
+    requires objc
+}
